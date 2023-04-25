@@ -91,6 +91,9 @@ ul {
         user-select: none;
         background-color:#030c2b;
          }
+         input:checked ~ ul{
+            display:none
+        }
 @media (min-width: 1024px) {
 
     .foto {
@@ -266,3 +269,5 @@ ul {
           
 
 }
+        
+     
